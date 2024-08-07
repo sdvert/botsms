@@ -80,7 +80,7 @@ foreach ($ultimos_pagamento ['results'] as $pagamento){
 
 		 $tlg->sendMessage ([
 			'chat_id' => CHAT_ID_NOTIFICACAO,
-			'text' => "<b>👏 Parabéns. Saldo Resgatado por {$usuarioTlg ['first_name']}!</b>\nID: $id_telegram ['id_telegram'] Valor: R\${$valor}\n\n@repasss_bot",
+			'text' => "<b>👏 Parabéns. Saldo Resgatado por {$usuarioTlg ['first_name']}!</b>\nID: $id_telegram ['id_telegram'] Valor: R\${$valor}\n\n@smsnetbrbot",
 			'parse_mode' => 'html'
 		]);
 

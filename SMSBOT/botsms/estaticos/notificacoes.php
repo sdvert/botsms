@@ -9,7 +9,7 @@ foreach ($bd_tlg->todosUsuarios () as $usuario){
 
 	$msg = @$tlg->sendMessage ([
 		'chat_id' => $usuario ['id_telegram'],
-		'text' => "🚀 <b>Gere Números Para Receber SMS no Seu Serviço Preferido, Diminuimos Em 30% O Valor De Todos Nossos Serviços. TikTok, Kwai, PicPay, Whatsapp, Telegram, BanQi...</b>\n\n💠 É Facíl, Apenas Recarregue Sua Conta Com o Comando /recarregar e Use o Saldo Para Comprar Números, Não Se Preocupe Você Só Paga Depois Que Recebe o Sms!\n\n🎃 O Mais Barato e Melhor Do Telegram.",
+		'text' => "🚀 <b>Gere Números Para Receber SMS no Seu Serviço Preferido, Diminuimos Em 30% O Valor De Todos Nossos Serviços. TikTok, Kwai, PicPay, Whatsapp, Telegram, BanQi...</b>\n\n💠 É Facíl, Apenas Recarregue Sua Conta Com o Comando /recarregar e Use o Saldo Para Comprar Números, Não Se Preocupe Você Só Paga Depois Que Recebe o Sms!\n\n🎃 O Mais Barato e Melhor Do Telegram. Nosso Grupo De Consultas Gratis. https://t.me/smsnetbr",
 		'parse_mode' => 'html'
 	]);
 

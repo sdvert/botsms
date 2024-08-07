@@ -9,7 +9,7 @@ ini_set("error_log", "erros.txt");
 class SMSActivate  {
 
 	private $endpoint = 'https://sms-activate.org/stubs/handler_api.php';
-	private $api_key = '70Add53ef5b5d6275f05bd02580Ae57f';
+	private $api_key = 'KEY DO SMS-ACTIVE';
 
 	function __construct ($api_key)
 	{

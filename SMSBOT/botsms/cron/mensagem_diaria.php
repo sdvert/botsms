@@ -15,13 +15,13 @@ $tlg->sendMessage ([
 - Uber
 - E muitos outros...
 
-💬 Receba os códigos no nosso bot
-@smsnetbrbot
+💬 Compre sessões de telegram em:
+@SessoesBot_bot
 
 🌐 Canal de Referências
-@smsnetbrbot
+@digitaljvbots
 📍 Nosso grupo
-@smsnetbr
+@digitaljvbots
 
 *Preço e serviço incomparável com os existentes.
 *Mais de 4 mil números disponíveis",

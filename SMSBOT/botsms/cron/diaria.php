@@ -22,10 +22,10 @@ foreach ($bd_tlg->todosUsuarios () as $usuario){
 - E muitos outros...
 
 💬 Receba os códigos no nosso bot
-@smsnetbrbot
+
 
 📍 Nosso grupo
-@smsnetbrbot
+@digitaljvbots
 
 *Preço e serviço incomparável com os existentes.
 *Mais de 4 mil números disponíveis",

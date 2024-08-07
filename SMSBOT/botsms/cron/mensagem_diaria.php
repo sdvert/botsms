@@ -16,12 +16,12 @@ $tlg->sendMessage ([
 - E muitos outros...
 
 💬 Receba os códigos no nosso bot
-@smsnetbrbot
+@repasss_bot
 
 🌐 Canal de Referências
-@smsnetbrbot
+@jvbotsfree
 📍 Nosso grupo
-@smsnetbr
+@digitaljvbots
 
 *Preço e serviço incomparável com os existentes.
 *Mais de 4 mil números disponíveis",

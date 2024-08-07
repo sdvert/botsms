@@ -18,11 +18,11 @@ if (STATUS_AFILIADO){
 
 	$tlg->sendMessage ([
 		'chat_id' => $tlg->ChatID (),
-		'text' => "<b>💡 Ganhe bônus de ".BONUS_AFILIADO."% da recarga do seu indicado:</b>\n\n<b>🔸 Indicações:</b> {$bd_tlg->countReferencias ($tlg->UserID ())}\n<b>📍 Última:</b> {$ultima_indicacao}\n<b>🙇‍♂️ Indicado:</b> {$usuario}\n\n🔗 Link: <code>https://t.me/leadsstoreejvbots?start={$tlg->UserID ()}</code>",
+		'text' => "<b>💡 Ganhe bônus de ".BONUS_AFILIADO."% da recarga do seu indicado:</b>\n\n<b>🔸 Indicações:</b> {$bd_tlg->countReferencias ($tlg->UserID ())}\n<b>📍 Última:</b> {$ultima_indicacao}\n<b>🙇‍♂️ Indicado:</b> {$usuario}\n\n🔗 Link: <code>https://t.me/theromss?start={$tlg->UserID ()}</code>",
 		'parse_mode' => 'html',
 		'reply_markup' => $tlg->buildInlineKeyboard (
 			[
-				[$tlg->buildInlineKeyBoardButton ('Compartilhar', "tg://share?text=Receba SMS diretamente pelo Telegram&url=https://t.me/leadsstoreejvbots?start={$tlg->UserID ()}")]
+				[$tlg->buildInlineKeyBoardButton ('Compartilhar', "tg://share?text=Receba SMS diretamente pelo Telegram&url=https://t.me/theromss?start={$tlg->UserID ()}")]
 			]
 		)
 	]);

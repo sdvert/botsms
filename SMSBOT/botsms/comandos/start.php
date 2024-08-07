@@ -4,7 +4,7 @@ $saldo = (string)number_format ($user ['saldo'], 2);
 
 $tlg->sendMessage ([
 	'chat_id' => $tlg->ChatID (),
-	'text' => "😀 <b>Olá ".htmlentities ($tlg->FirstName ())."</b>, Seja bem-vindo ao BOT SMS- JVBOTS!\n\nAqui você pode gerar números temporários para receber SMS de qualquer serviço, app ou site.\n\n🔥 Compre sessões para Telegram em: @SessoesBot_bot \n\n🍀 Compre membros fake para seu grupo em: www.leadsstore.me \n\n💰 O seu saldo atual é de: <code>R\${$saldo}</code>.\n\n <b>Suporte: @leadsstoreejvbots</b>",
+	'text' => "😀 <b>Olá ".htmlentities ($tlg->FirstName ())."</b>, Seja bem-vindo ao BOT SMS NET!\n\nAqui você pode gerar números temporários para receber SMS de qualquer serviço, app ou site.\n\n💰 O seu saldo atual é de: <code>R\${$saldo}</code>.\n\n <b>Suporte: @theromss</b>",
 	'parse_mode' => 'html',
 	'reply_markup' => $tlg->buildKeyBoard ([
 		[$tlg->buildInlineKeyboardButton ('💴 Recarregar'), $tlg->buildInlineKeyboardButton ('🔥Serviços')],

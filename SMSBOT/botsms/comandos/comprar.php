@@ -13,8 +13,8 @@ $pagamento = $mp->setPreferencia ([
 	"items" => [
 		[
 			"picture_url" => "https://i.imgur.com/tsTPWau.jpg",
-			"title" => "Saldo @repasss_bot",
-            "description" => "Saldo para o bot @repasss_bot no Telegram",
+			"title" => "Saldo @smsnetbr",
+            "description" => "Saldo para o bot @smsnetbrbot no Telegram",
             "quantity" => 1,
             "currency_id" => "BRL",
             "unit_price" => (float)$valor

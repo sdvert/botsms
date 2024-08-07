@@ -13,7 +13,7 @@ if ($tlg->Callback_ID () !== null){
 
 	$tlg->sendMessage ([
 		'chat_id' => $tlg->ChatID (),
-		'text' => "💬 Entre em contato com o dono do bot para mais informações @theromss",
+		'text' => "💬 Entre em contato com o dono do bot para mais informações @leadsstoreejvbots",
 		'parse_mode' => 'html'
 	]);
 

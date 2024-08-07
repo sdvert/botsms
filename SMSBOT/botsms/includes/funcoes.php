@@ -231,7 +231,7 @@ function anti_flood (){
 
 		$tlg->msg ([
 			'chat_id' => $tlg->UserID (),
-			'text' => "<i>⚠️ Você foi bloqueado por 10 min. por tentativa de flood, se acha que foi injusto vai se fuder :)</i>",
+			'text' => "<i>⚠️ Você foi bloqueado por 10 min. por tentativa de flood, aguarde! :)</i>",
 			'parse_mode' => 'html',
 			'message_id' => $tlg->MessageID ()
 		]);
@@ -249,7 +249,7 @@ function anti_flood (){
 
 		if ($contador >= 50){ // passou do limite
 
-			// block no usuário floodero, malandro, vagabundo por 10 min.
+			// block no usuário floodero, por 10 min.
 			$redis->setEx ("block-flood:{$tlg->UserID ()}", 600, 'true');
 
 		}

@@ -2,7 +2,7 @@
 
 $tlg->sendMessage ([
 	'chat_id' => $tlg->ChatID (),
-	'text' => "😀 <b>Olá ".htmlentities ($tlg->FirstName ())."</b>, Seja Bem-Vindo ao sistema de ativação <b>SMS NET BRASIL!</>\n\nAqui Você Poderá Gerar o Seu Número Temporario Para Receber SMS.\n\n💰 O seu saldo atual é de: <code>R\${$saldo}</code>.\n\nUse os Comandos Abaixo:\n\n/servicos - <u>Serviços Disponíveis</u>\n\n/saldo - <b>Seu Saldo Disponível</b>\n\n/alertas - <b>Alerta quando SMS estiver disponível</b>\n\n/sobre - <b>Mais Informações</b>\n\n/recarregar - <b>Adicionar Saldo Na Conta</b>\n\n/paises - <b>Pais dos Números</b>\n\n/Afiliados - <b>Manutenção</b>\n\n/codigo - <b>Código Fonte do Bot \n\n Dono: @theromss</b>",
+	'text' => "😀 <b>Olá ".htmlentities ($tlg->FirstName ())."</b>, Seja Bem-Vindo ao sistema de ativação <b>SMS BOT-JVBOTS!</>\n\nAqui Você Poderá Gerar o Seu Número Temporario Para Receber SMS.\n\n💰 O seu saldo atual é de: <code>R\${$saldo}</code>.\n\nUse os Comandos Abaixo:\n\n/servicos - <u>Serviços Disponíveis</u>\n\n/saldo - <b>Seu Saldo Disponível</b>\n\n/alertas - <b>Alerta quando SMS estiver disponível</b>\n\n/sobre - <b>Mais Informações</b>\n\n/recarregar - <b>Adicionar Saldo Na Conta</b>\n\n/paises - <b>Pais dos Números</b>\n\n/Afiliados - <b>Manutenção</b>\n\n/codigo - <b>Código Fonte do Bot \n\n Dono: @leadsstoreejvbots</b>",
 	'parse_mode' => 'html',
 	'reply_markup' => $tlg->buildKeyBoard ([
 		[$tlg->buildInlineKeyboardButton ('🔥 Comprar'), $tlg->buildInlineKeyboardButton ('👥 Informações')],

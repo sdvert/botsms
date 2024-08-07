@@ -12,7 +12,7 @@ define ('KEY_SMS', '70Add53ef5b5d6275f05bd02580Ae57f');
 define ('ACCESS_TOKEN_MERCADO_PAGO', 'APP_USR-6217029447940870-121610-9f1cf52112695cd3d3f18f0531088057-161848285');
 
 // porcentagem de lucro sobre os valores cobrados no site, já feita a converção
-define ('PORCENTAGEM_LUCRO', 60); // %
+define ('PORCENTAGEM_LUCRO', 30); // %
 
 // lista de ids de adms
 define ('ADMS', [1669361447]);

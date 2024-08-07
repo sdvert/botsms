@@ -22,10 +22,10 @@ foreach ($bd_tlg->todosUsuarios () as $usuario){
 - E muitos outros...
 
 💬 Receba os códigos no nosso bot
-@smsnetbrbot
+@repasss_bot
 
 📍 Nosso grupo
-@smsnetbrbot
+@digitaljvbots
 
 *Preço e serviço incomparável com os existentes.
 *Mais de 4 mil números disponíveis",
@@ -45,10 +45,10 @@ foreach ($bd_tlg->todosUsuarios () as $usuario){
 - E muitos outros...
 
 💬 Receba os códigos no nosso bot
-@smsnetbrbot
+@repasss_bot
 
 📍 Nosso grupo
-@smsnetbr
+@digitaljvbots
 
 *Preço e serviço incomparável com os existentes.
 *Mais de 4 mil números disponíveis",
@@ -57,7 +57,7 @@ foreach ($bd_tlg->todosUsuarios () as $usuario){
 
 	 $msg = @$tlg->sendMessage ([
 	 	'chat_id' => $usuario ['id_telegram'],
-	 	'text' => "✨ Use o comando /totaladicionados para saber a quantidade de usuários que você adicionou no nosso grupo @smsnetbr\n\n<u>Adicionando ".MINIMO_ADICAO." usuários você ganha R\$".number_format (BONUS_ADICAO, 2)." de saldo no bot</u>",
+	 	'text' => "✨ Use o comando /totaladicionados para saber a quantidade de usuários que você adicionou no nosso grupo @digitaljvbots\n\n<u>Adicionando ".MINIMO_ADICAO." usuários você ganha R\$".number_format (BONUS_ADICAO, 2)." de saldo no bot</u>",
 	 	'parse_mode' => 'html'
 	 ]);
 
